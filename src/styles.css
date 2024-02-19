@@ -1,0 +1,25 @@
+/* Add your CSS styles here */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.loader {
+    display: none;
+    color: goldenrod;
+}
+
+.error {
+    display: none;
+    color: red;
+}
+
+.cat-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Agregar bordes redondeados */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+    margin-top: 15px;
+}
